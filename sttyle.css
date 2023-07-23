@@ -1,0 +1,70 @@
+body{
+    background-image: url("a.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin:auto;
+}
+#p1{
+    color: rgb(69, 129, 150);
+    align-content: center;
+    font-family: Press Start 2P;
+    border-style: outset;
+    border-color: gold;
+    border-radius: 5px;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient( to right, rgb(252, 3, 111), rgb(224, 171, 194));
+    background-size: cover;
+}
+#box1{
+    border: 5px solid;
+    background: linear-gradient( to right, rgb(252, 3, 111), rgb(224, 171, 194));
+    align-content: center;
+    text-decoration: cyan underline;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-color: gold;
+    color: skyblue;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left:auto;
+}
+#box2{
+    align-items: center;
+    margin-bottom: 0px;
+}
+img{
+    animation: myslide;
+    animation-timing-function: ease-out;
+    animation-duration: 5s;
+}
+@keyframes myslide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+#p2{
+    color: gold;
+}
+head{
+    clear: both;
+}
+#img1{
+    animation: myslide;
+    animation-play-state: paused;
+}
+#img2{
+    animation: myslide;
+    animation-play-state: paused;
+}
+#img3{
+    animation: myslide;
+    animation-play-state: paused;
+}
